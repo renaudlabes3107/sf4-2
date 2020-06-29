@@ -35,7 +35,7 @@ class SecurityController extends AbstractController
     }
     
     /**
-    *@Route("/logout-message", "name="app_logout_message")
+    *@Route("/logout-message", name="app_logout_message")
      */
     public function logoutMessage()
     {
